@@ -38,7 +38,23 @@ body, html {
     background-color: #111;
 }
 
-/* Estilos del contenedor de imágenes */
-.image-container {
-    text-align: center;
+/* Estilos de las tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #ddd;
+}
+
+th, td {
+    border: 2px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
 }
